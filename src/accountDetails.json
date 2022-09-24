@@ -1,0 +1,19 @@
+[
+{
+  "accountNumber": "00001",
+  "accountPin": "00010",
+  "name": "Aadhi",
+  "location": "Salem"
+}, {
+"accountNumber": "00002",
+"accountPin": "00020",
+"name": "jeeva",
+"location": "hosur"
+}, {
+"accountNumber": "00003",
+"accountPin": "00030",
+"name": "raj",
+"location": "hosur"
+}
+
+]
