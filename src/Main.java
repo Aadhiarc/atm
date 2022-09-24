@@ -21,7 +21,7 @@ public class Main {
         System.out.print("Enter the pin :");
         String accountPin = sc.next();
         for (int i = 0; i < accountHolders.size(); i++) {
-            if ((accountNumber.equals(accountHolders.get(i).accountNumber)) && (accountPin.equals(accountHolders.get(i).accountPin))) {
+             if((accountNumber.equals(accountHolders.get(i).accountNumber)) && (accountPin.equals(accountHolders.get(i).accountPin))) {
                 System.out.println("Validation is successfull");
                 while (true) {
                     System.out.println("1.View Available Balance\n2.Withdraw Amount\n3.Deposit TheAmount\n4.Exit");
@@ -49,7 +49,10 @@ public class Main {
                             System.out.println("Please Enter the correct choice");
                         }
                     }
-            }
+            }else {
+                 System.out.println("your account number or pin is incorrect");
+                 break;
+             }
     }
 }
     void jsonStuff() throws Exception {
